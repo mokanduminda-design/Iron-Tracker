@@ -5,7 +5,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Add Workout | IRON TRACKER</title>
         <link rel="stylesheet" href="css/style.css">
-        
-
     </head>
+    <body>
+        <header>
+        <div class="logo">
+            <img src="assets/Iron Tracker.png" alt="Iron Tracker Logo">
+            <h1>Iron Tracker</h1>
+        </div>
+        <!-- Navigation bar -->
+         <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add.html">Add</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Add Workout</h2>
+            <form id="workout-form">
+                <label>Exercise Name</label>
+                <input type="text" id="name" required>
+
+                <label>Sets</label>
+                <input type="number" id="sets" required>
+
+                <label>Reps</label>
+                <input type="number" id="reps" required>
+
+                <label>Weight -Kg</label>
+                <input type="number" id="weight" required>
+
+                <label>Date</label>
+                <input type="date" id="date" required>
+
+                <label>Notes</label>
+                <textarea id="notes"></textarea>
+
+                <button type="submit">Add Workout</button>
+
+            </form>
+        </section>
+    </main>
+    </body>
 </html>
