@@ -13,5 +13,14 @@ function getWorkouts () {
 }
 
 function saveWorkouts (workouts) {
-    
+    const workoutsString = JSON.stringify(workouts);
+    localStorage.setItem("workouts", workoutsString);
+}
+
+function deleteWorkout(id) {
+    let workouts = getWorkouts();
+    workouts = workouts.filter(function(workout) {
+    return workout.id !== id;
+    });
+    saveWorkouts(workouts);
 }
