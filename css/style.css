@@ -170,3 +170,34 @@ footer {
 
 }
 
+.workout-card {
+    background-color: #2d2e2e;
+    border-left: 6px solid #bcabae;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fbfbfb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.workout-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.6);
+}
+
+.workout-card h3 {
+    margin-bottom: 10px;
+    color: #bcabae;
+    font-size: 1.4rem;
+}
+
+.workout-card p {
+    margin: 6px 0;
+    color: #d6d6d6;
+    font-size: 0.95rem;
+}
+
+.workout-card strong {
+    color: #fbfbfb;
+}
