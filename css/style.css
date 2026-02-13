@@ -29,6 +29,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 100;
+    margin-bottom: 30px;
 }
 
 header .logo {
@@ -193,7 +194,7 @@ footer {
 }
 
 .workout-card p {
-    margin: 6px 0;
+    margin: 5px 0;
     color: #d6d6d6;
     font-size: 0.95rem;
 }
