@@ -112,6 +112,7 @@ All workout data is stored in the browser using **localStorage**, allowing users
 
 Developed by: **Mokandu Minda**
 GitHub: *https://github.com/mokanduminda-design*
+
 Live site: *https://mokanduminda-design.github.io/Iron-Tracker/*
 
 ---
